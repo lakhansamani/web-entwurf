@@ -18,17 +18,23 @@
 		</nav>
 		<br/>
 		<div class="slider-container">
+			<input type="radio" id="button-1" name="controls" checked="checked"/>
+			<label for="button-1"></label>
+			<input type="radio" id="button-2" name="controls"/>
+			<label for="button-2"></label>
+			<input type="radio" id="button-3" name="controls"/>
+			<label for="button-3"></label>
+			<label for="button-1" class="arrows" id="arrow-1">></label>
+			<label for="button-2" class="arrows" id="arrow-2">></label>
+			<label for="button-3" class="arrows" id="arrow-3">></label>
 			<div class="slider">
-				<div id="item-1" class="slider-item slider-active"><img src="images/slider/10.jpg" style="height:300px;width:600px;border:1px solid;" /></div>
-				<div id="item-2" class="slider-item"><img src="images/slider/13.jpg" style="height:300px;width:600px;border:1px solid;" /></div>
-				<div id="item-3" class="slider-item"><img src="images/slider/4.jpg" style="height:300px;width:600px;border:1px solid;" /></div>
-
+				<ul>
+				<li id="item-1"><img src="images/slider/10.jpg" style="height:300px;width:600px;border:1px solid;" /></li>
+				<li id="item-2"><img src="images/slider/13.jpg" style="height:300px;width:600px;border:1px solid;" /></li>
+				<li id="item-3"><img src="images/slider/4.jpg" style="height:300px;width:600px;border:1px solid;" /></li>
+				</ul>
 			</div>
 			
-		</div>
-		
-		<div class="slider-bullet">
-
 		</div>
 		<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
 		<script type="text/javascript" src="js/slider.js"></script>
